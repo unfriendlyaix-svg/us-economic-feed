@@ -1,10 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
-  <channel>
-    <title>US Economic Calendar</title>
-    <description>Real-time US economic events (Low, Medium, High impact)</description>
-    <link>https://github.com</link>
-    <lastBuildDate></lastBuildDate>
-    <!-- Items will be auto-generated -->
-  </channel>
-</rss>
+  <rss version="2.0">
+    <channel>
+      <title>US Economic Calendar</title>
+      <description>Real-time US economic events (Low, Medium, High impact)</description>
+      <link>https://github.com</link>
+      <lastBuildDate>Tue, 31 Mar 2026 21:10:07 GMT</lastBuildDate>
+      
+      <item>
+        <title><![CDATA[undefined]]></title>
+        <description><![CDATA[
+          Time: undefined
+          Impact: undefined
+          Actual: N/A
+          Forecast: N/A
+          Previous: N/A
+        ]]></description>
+        <pubDate>Invalid Date</pubDate>
+        <guid>undefined</guid>
+      </item>
+
+      <item>
+        <title><![CDATA[undefined]]></title>
+        <description><![CDATA[
+          Time: undefined
+          Impact: undefined
+          Actual: N/A
+          Forecast: N/A
+          Previous: N/A
+        ]]></description>
+        <pubDate>Invalid Date</pubDate>
+        <guid>undefined</guid>
+      </item>
+
+      <item>
+        <title><![CDATA[undefined]]></title>
+        <description><![CDATA[
+          Time: undefined
+          Impact: undefined
+          Actual: N/A
+          Forecast: N/A
+          Previous: N/A
+        ]]></description>
+        <pubDate>Invalid Date</pubDate>
+        <guid>undefined</guid>
+      </item>
+    </channel>
+  </rss>
