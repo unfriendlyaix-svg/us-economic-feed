@@ -16,36 +16,43 @@ function fetchJSON(url) {
 }
 
 function buildRSS(events) {
-  const items = events
-    .map((e) => {
-      return `
+  const items = events.map(ev => {
+    const title = ev.Event || "No title";
+    const pubDate = new Date(ev.Date).toUTCString();
+    const guid = ev.CalendarId || ev.URL || Math.random().toString();
+
+    const description = `
+      Time: ${ev.Date}
+      Category: ${ev.Category}
+      Impact: ${ev.Importance}
+      Actual: ${ev.Actual || "N/A"}
+      Forecast: ${ev.Forecast || "N/A"}
+      Previous: ${ev.Previous || "N/A"}
+    `.trim();
+
+    return `
       <item>
-        <title><![CDATA[${e.title}]]></title>
-        <description><![CDATA[
-          Time: ${e.date}
-          Impact: ${e.impact}
-          Actual: ${e.actual || "N/A"}
-          Forecast: ${e.forecast || "N/A"}
-          Previous: ${e.previous || "N/A"}
-        ]]></description>
-        <pubDate>${new Date(e.date).toUTCString()}</pubDate>
-        <guid>${e.id}</guid>
-      </item>`;
-    })
-    .join("\n");
+        <title><![CDATA[ ${title} ]]></title>
+        <description><![CDATA[ ${description} ]]></description>
+        <pubDate>${pubDate}</pubDate>
+        <guid>${guid}</guid>
+      </item>
+    `;
+  }).join("\n");
 
-  return `<?xml version="1.0" encoding="UTF-8"?>
-  <rss version="2.0">
-    <channel>
-      <title>US Economic Calendar</title>
-      <description>Real-time US economic events (Low, Medium, High impact)</description>
-      <link>https://github.com</link>
-      <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
-      ${items}
-    </channel>
-  </rss>`;
+  return `
+    <?xml version="1.0"?>
+    <rss version="2.0">
+      <channel>
+        <title>US Economic Calendar</title>
+        <description>Real-time US economic events (Low, Medium, High impact)</description>
+        <link>https://github.com</link>
+        <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
+        ${items}
+      </channel>
+    </rss>
+  `;
 }
-
 async function main() {
   try {
     const data = await fetchJSON(API_URL);
