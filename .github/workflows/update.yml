@@ -2,7 +2,7 @@ name: Update US Economic Feed
 
 on:
   schedule:
-    - cron: "*/5 * * * *"   # every 5 minutes
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 jobs:
@@ -11,15 +11,12 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: 18
-
-      - name: Install dependencies
-        run: npm init -y
+          node-version: 20
 
       - name: Run update script
         run: node update.js
@@ -29,5 +26,5 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add feed.xml
-          git commit -m "Auto-update feed" || echo "No changes"
+          git commit -m "Auto-update feed" || echo "No changes to commit"
           git push
