@@ -16,6 +16,8 @@ function fetchJSON(url) {
 }
 
 function buildRSS(events) {
+  console.log(">>> Using updated buildRSS()");   // ← THIS IS THE ONLY CHANGE
+
   const items = events.map(ev => {
     const title = ev.Event || "No title";
     const pubDate = new Date(ev.Date).toUTCString();
