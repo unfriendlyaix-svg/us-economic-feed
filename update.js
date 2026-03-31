@@ -47,6 +47,9 @@ function buildRSS(events) {
 async function main() {
   try {
     const data = await fetchJSON(API_URL);
+
+    console.log("API returned:", data);   // <-- ADD THIS LINE
+
     const rss = buildRSS(data);
     fs.writeFileSync("feed.xml", rss);
     console.log("feed.xml updated successfully");
