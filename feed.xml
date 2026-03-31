@@ -1,12 +1,11 @@
-
-    <?xml version="1.0"?>
-    <rss version="2.0">
-      <channel>
-        <title>US Economic Calendar</title>
-        <description>Real-time US economic events (Low, Medium, High impact)</description>
-        <link>https://github.com</link>
-        <lastBuildDate>Tue, 31 Mar 2026 21:56:44 GMT</lastBuildDate>
-        
+<?xml version="1.0"?>
+<rss version="2.0">
+  <channel>
+    <title>US Economic Calendar</title>
+    <description>Real-time US economic events (Low, Medium, High impact)</description>
+    <link>https://github.com</link>
+    <lastBuildDate>Tue, 31 Mar 2026 22:04:05 GMT</lastBuildDate>
+    
       <item>
         <title><![CDATA[ Fed Jefferson Speech ]]></title>
         <description><![CDATA[ Time: 2025-09-30T10:00:00
@@ -45,6 +44,5 @@
         <guid>384530</guid>
       </item>
     
-      </channel>
-    </rss>
-  
+  </channel>
+</rss>
