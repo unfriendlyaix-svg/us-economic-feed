@@ -1,7 +1,7 @@
 const fs = require("fs");
 const https = require("https");
 
-const API_URL = "https://api.jblanked.com/v1/economic-calendar?country=US&impact=low,medium,high&days=7";
+const API_URL = https://www.econdb.com/api/calendar/?countries=US&limit=50
 
 function fetchJSON(url) {
   return new Promise((resolve, reject) => {
