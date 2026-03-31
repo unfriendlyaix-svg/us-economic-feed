@@ -42,18 +42,17 @@ function buildRSS(events) {
     `;
   }).join("\n");
 
-  return `
-    <?xml version="1.0"?>
-    <rss version="2.0">
-      <channel>
-        <title>US Economic Calendar</title>
-        <description>Real-time US economic events (Low, Medium, High impact)</description>
-        <link>https://github.com</link>
-        <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
-        ${items}
-      </channel>
-    </rss>
-  `;
+ return `<?xml version="1.0"?>
+<rss version="2.0">
+  <channel>
+    <title>US Economic Calendar</title>
+    <description>Real-time US economic events (Low, Medium, High impact)</description>
+    <link>https://github.com</link>
+    <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
+    ${items}
+  </channel>
+</rss>
+`;
 }
 async function main() {
   try {
