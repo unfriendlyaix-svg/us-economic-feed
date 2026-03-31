@@ -1,7 +1,7 @@
 const fs = require("fs");
 const https = require("https");
 
-const API_URL = "https://www.econdb.com/api/calendar/?countries=US&limit=50";
+const API_URL = "https://api.tradingeconomics.com/calendar/country/united%20states?client=guest:guest";
 
 
 
