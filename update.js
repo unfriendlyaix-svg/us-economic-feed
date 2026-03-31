@@ -16,7 +16,7 @@ function fetchJSON(url) {
 }
 
 function buildRSS(events) {
-  console.log(">>> Using updated buildRSS()");   // ← THIS IS THE ONLY CHANGE
+  console.log(">>> Using updated buildRSS()");  
 
   const items = events.map(ev => {
     const title = ev.Event || "No title";
