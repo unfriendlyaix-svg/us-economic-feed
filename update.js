@@ -16,7 +16,18 @@ function fetchJSON(url) {
 }
 
 function buildRSS(events) {
-  console.log(">>> Using updated buildRSS()");  
+  console.log(">>> Using updated buildRSS()");
+
+  // --- TEST EVENT (forces MonitoRSS to post immediately) ---
+  const testItem = `
+    <item>
+      <title><![CDATA[ TEST EVENT ]]></title>
+      <description><![CDATA[ This is a forced test event to confirm MonitoRSS posting. ]]></description>
+      <pubDate>${new Date().toUTCString()}</pubDate>
+      <guid>test-${Date.now()}</guid>
+    </item>
+  `;
+  // ----------------------------------------------------------
 
   const items = events.map(ev => {
     const title = ev.Event || "No title";
@@ -41,6 +52,20 @@ function buildRSS(events) {
       </item>
     `;
   }).join("\n");
+
+  return `<?xml version="1.0"?>
+<rss version="2.0">
+  <channel>
+    <title>US Economic Calendar</title>
+    <description>Real-time US economic events (Low, Medium, High impact)</description>
+    <link>https://github.com</link>
+    <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
+    ${testItem}
+    ${items}
+  </channel>
+</rss>
+`;
+}
 
  return `<?xml version="1.0"?>
 <rss version="2.0">
