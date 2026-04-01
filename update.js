@@ -17,8 +17,7 @@ function fetchJSON(url) {
 
 function buildRSS(events) {
   console.log(">>> Using updated buildRSS()");
-
-  // --- TEST EVENT (forces MonitoRSS to post immediately) ---
+  
   const testItem = `
     <item>
       <title><![CDATA[ TEST EVENT ]]></title>
