@@ -4,7 +4,15 @@
     <title>US Economic Calendar</title>
     <description>Real-time US economic events (Low, Medium, High impact)</description>
     <link>https://github.com</link>
-    <lastBuildDate>Wed, 01 Apr 2026 20:05:16 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 01 Apr 2026 21:34:18 GMT</lastBuildDate>
+    
+    <item>
+      <title><![CDATA[ TEST EVENT ]]></title>
+      <description><![CDATA[ This is a forced test event to confirm MonitoRSS posting. ]]></description>
+      <pubDate>Wed, 01 Apr 2026 21:34:18 GMT</pubDate>
+      <guid>test-1775079258256</guid>
+    </item>
+  
     
       <item>
         <title><![CDATA[ MBA Purchase Index ]]></title>
