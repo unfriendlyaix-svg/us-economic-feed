@@ -18,17 +18,6 @@ function fetchJSON(url) {
 function buildRSS(events) {
   console.log(">>> Using updated buildRSS()");
 
-  // --- TEST EVENT (forces MonitoRSS to post immediately) ---
-  const testItem = `
-    <item>
-      <title><![CDATA[ TEST EVENT ]]></title>
-      <description><![CDATA[ This is a forced test event to confirm MonitoRSS posting. ]]></description>
-      <pubDate>${new Date().toUTCString()}</pubDate>
-      <guid>test-${Date.now()}</guid>
-    </item>
-  `;
-  // ----------------------------------------------------------
-
   const items = events.map(ev => {
     const title = ev.Event || "No title";
     const pubDate = new Date(ev.Date).toUTCString();
