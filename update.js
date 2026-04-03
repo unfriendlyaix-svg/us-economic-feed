@@ -3,8 +3,6 @@ const https = require("https");
 
 const API_URL = "https://api.tradingeconomics.com/calendar/country/united%20states?client=guest:guest";
 
-
-
 function fetchJSON(url) {
   return new Promise((resolve, reject) => {
     https.get(url, (res) => {
@@ -16,7 +14,7 @@ function fetchJSON(url) {
 }
 
 function buildRSS(events) {
-  console.log(">>> Using updated buildRSS()");
+  console.log(">>> Building clean RSS feed");
 
   const items = events.map(ev => {
     const title = ev.Event || "No title";
@@ -49,17 +47,16 @@ function buildRSS(events) {
     <description>Real-time US economic events (Low, Medium, High impact)</description>
     <link>https://github.com</link>
     <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
-    ${testItem}
     ${items}
   </channel>
 </rss>
 `;
 }
+
 async function main() {
   try {
     const data = await fetchJSON(API_URL);
-
-    console.log("API returned:", data);   // <-- ADD THIS LINE
+    console.log("API returned:", data);
 
     const rss = buildRSS(data);
     fs.writeFileSync("feed.xml", rss);
