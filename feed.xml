@@ -4,44 +4,44 @@
     <title>US Economic Calendar</title>
     <description>Real-time US economic events (Low, Medium, High impact)</description>
     <link>https://github.com</link>
-    <lastBuildDate>Tue, 07 Apr 2026 23:56:02 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2026 06:00:43 GMT</lastBuildDate>
     
       <item>
-        <title><![CDATA[ LMI Logistics Managers Index ]]></title>
-        <description><![CDATA[ Time: 2025-10-07T10:05:00
-      Category: LMI Logistics Managers Index
+        <title><![CDATA[ MBA Purchase Index ]]></title>
+        <description><![CDATA[ Time: 2025-10-08T11:00:00
+      Category: MBA Purchase Index
       Impact: 1
-      Actual: 57.4
+      Actual: 170.6
       Forecast: N/A
-      Previous: 59.3 ]]></description>
-        <pubDate>Tue, 07 Oct 2025 10:05:00 GMT</pubDate>
-        <guid>384968</guid>
+      Previous: 172.7 ]]></description>
+        <pubDate>Wed, 08 Oct 2025 11:00:00 GMT</pubDate>
+        <guid>370970</guid>
       </item>
     
 
       <item>
-        <title><![CDATA[ Redbook YoY ]]></title>
-        <description><![CDATA[ Time: 2025-10-07T12:55:00
-      Category: Redbook Index
-      Impact: 1
-      Actual: 5.8%
+        <title><![CDATA[ MBA 30-Year Mortgage Rate ]]></title>
+        <description><![CDATA[ Time: 2025-10-08T11:00:00
+      Category: Mortgage Rate
+      Impact: 2
+      Actual: 6.43%
       Forecast: N/A
-      Previous: 5.9% ]]></description>
-        <pubDate>Tue, 07 Oct 2025 12:55:00 GMT</pubDate>
-        <guid>370968</guid>
+      Previous: 6.46% ]]></description>
+        <pubDate>Wed, 08 Oct 2025 11:00:00 GMT</pubDate>
+        <guid>370971</guid>
       </item>
     
 
       <item>
-        <title><![CDATA[ Used Car Prices MoM ]]></title>
-        <description><![CDATA[ Time: 2025-10-07T13:00:00
-      Category: Used Car Prices MoM
+        <title><![CDATA[ MBA Mortgage Market Index ]]></title>
+        <description><![CDATA[ Time: 2025-10-08T11:00:00
+      Category: MBA Mortgage Market Index
       Impact: 1
-      Actual: -0.2%
+      Actual: 323.1
       Forecast: N/A
-      Previous: 0% ]]></description>
-        <pubDate>Tue, 07 Oct 2025 13:00:00 GMT</pubDate>
-        <guid>385216</guid>
+      Previous: 339.1 ]]></description>
+        <pubDate>Wed, 08 Oct 2025 11:00:00 GMT</pubDate>
+        <guid>370972</guid>
       </item>
     
   </channel>
