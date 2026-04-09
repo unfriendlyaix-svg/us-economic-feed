@@ -4,44 +4,44 @@
     <title>US Economic Calendar</title>
     <description>Real-time US economic events (Low, Medium, High impact)</description>
     <link>https://github.com</link>
-    <lastBuildDate>Wed, 08 Apr 2026 23:55:06 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 05:59:44 GMT</lastBuildDate>
     
       <item>
-        <title><![CDATA[ MBA Purchase Index ]]></title>
-        <description><![CDATA[ Time: 2025-10-08T11:00:00
-      Category: MBA Purchase Index
-      Impact: 1
-      Actual: 170.6
-      Forecast: N/A
-      Previous: 172.7 ]]></description>
-        <pubDate>Wed, 08 Oct 2025 11:00:00 GMT</pubDate>
-        <guid>370970</guid>
-      </item>
-    
-
-      <item>
-        <title><![CDATA[ MBA 30-Year Mortgage Rate ]]></title>
-        <description><![CDATA[ Time: 2025-10-08T11:00:00
-      Category: Mortgage Rate
+        <title><![CDATA[ Fed Chair Powell Speech ]]></title>
+        <description><![CDATA[ Time: 2025-10-09T12:30:00
+      Category: Interest Rate
       Impact: 2
-      Actual: 6.43%
+      Actual: N/A
       Forecast: N/A
-      Previous: 6.46% ]]></description>
-        <pubDate>Wed, 08 Oct 2025 11:00:00 GMT</pubDate>
-        <guid>370971</guid>
+      Previous: N/A ]]></description>
+        <pubDate>Thu, 09 Oct 2025 12:30:00 GMT</pubDate>
+        <guid>393504</guid>
       </item>
     
 
       <item>
-        <title><![CDATA[ MBA Mortgage Market Index ]]></title>
-        <description><![CDATA[ Time: 2025-10-08T11:00:00
-      Category: MBA Mortgage Market Index
-      Impact: 1
-      Actual: 323.1
+        <title><![CDATA[ Fed Bowman Speech ]]></title>
+        <description><![CDATA[ Time: 2025-10-09T12:35:00
+      Category: Interest Rate
+      Impact: 2
+      Actual: N/A
       Forecast: N/A
-      Previous: 339.1 ]]></description>
-        <pubDate>Wed, 08 Oct 2025 11:00:00 GMT</pubDate>
-        <guid>370972</guid>
+      Previous: N/A ]]></description>
+        <pubDate>Thu, 09 Oct 2025 12:35:00 GMT</pubDate>
+        <guid>393529</guid>
+      </item>
+    
+
+      <item>
+        <title><![CDATA[ EIA Natural Gas Stocks Change ]]></title>
+        <description><![CDATA[ Time: 2025-10-09T14:30:00
+      Category: Natural Gas Stocks Change
+      Impact: 1
+      Actual: 80Bcf
+      Forecast: 76Bcf
+      Previous: 53Bcf ]]></description>
+        <pubDate>Thu, 09 Oct 2025 14:30:00 GMT</pubDate>
+        <guid>370990</guid>
       </item>
     
   </channel>
