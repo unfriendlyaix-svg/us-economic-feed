@@ -4,44 +4,44 @@
     <title>US Economic Calendar</title>
     <description>Real-time US economic events (Low, Medium, High impact)</description>
     <link>https://github.com</link>
-    <lastBuildDate>Thu, 09 Apr 2026 23:26:15 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 10 Apr 2026 06:14:18 GMT</lastBuildDate>
     
       <item>
-        <title><![CDATA[ Fed Chair Powell Speech ]]></title>
-        <description><![CDATA[ Time: 2025-10-09T12:30:00
+        <title><![CDATA[ Fed Goolsbee Speech ]]></title>
+        <description><![CDATA[ Time: 2025-10-10T13:45:00
       Category: Interest Rate
       Impact: 2
       Actual: N/A
       Forecast: N/A
       Previous: N/A ]]></description>
-        <pubDate>Thu, 09 Oct 2025 12:30:00 GMT</pubDate>
-        <guid>393504</guid>
+        <pubDate>Fri, 10 Oct 2025 13:45:00 GMT</pubDate>
+        <guid>393610</guid>
       </item>
     
 
       <item>
-        <title><![CDATA[ Fed Bowman Speech ]]></title>
-        <description><![CDATA[ Time: 2025-10-09T12:35:00
-      Category: Interest Rate
-      Impact: 2
-      Actual: N/A
-      Forecast: N/A
-      Previous: N/A ]]></description>
-        <pubDate>Thu, 09 Oct 2025 12:35:00 GMT</pubDate>
-        <guid>393529</guid>
-      </item>
-    
-
-      <item>
-        <title><![CDATA[ EIA Natural Gas Stocks Change ]]></title>
-        <description><![CDATA[ Time: 2025-10-09T14:30:00
-      Category: Natural Gas Stocks Change
+        <title><![CDATA[ Michigan Current Conditions Prel ]]></title>
+        <description><![CDATA[ Time: 2025-10-10T14:00:00
+      Category: Michigan Current Economic Conditions
       Impact: 1
-      Actual: 80Bcf
-      Forecast: 76Bcf
-      Previous: 53Bcf ]]></description>
-        <pubDate>Thu, 09 Oct 2025 14:30:00 GMT</pubDate>
-        <guid>370990</guid>
+      Actual: 61.0
+      Forecast: 60
+      Previous: 60.4 ]]></description>
+        <pubDate>Fri, 10 Oct 2025 14:00:00 GMT</pubDate>
+        <guid>371036</guid>
+      </item>
+    
+
+      <item>
+        <title><![CDATA[ Michigan Consumer Expectations Prel ]]></title>
+        <description><![CDATA[ Time: 2025-10-10T14:00:00
+      Category: Michigan Consumer Expectations
+      Impact: 1
+      Actual: 51.2
+      Forecast: 51.7
+      Previous: 51.7 ]]></description>
+        <pubDate>Fri, 10 Oct 2025 14:00:00 GMT</pubDate>
+        <guid>371037</guid>
       </item>
     
   </channel>
