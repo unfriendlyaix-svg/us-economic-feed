@@ -4,44 +4,44 @@
     <title>US Economic Calendar</title>
     <description>Real-time US economic events (Low, Medium, High impact)</description>
     <link>https://github.com</link>
-    <lastBuildDate>Fri, 10 Apr 2026 23:53:20 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 11 Apr 2026 05:18:48 GMT</lastBuildDate>
     
       <item>
-        <title><![CDATA[ Fed Goolsbee Speech ]]></title>
-        <description><![CDATA[ Time: 2025-10-10T13:45:00
+        <title><![CDATA[ Fed Paulson Speech ]]></title>
+        <description><![CDATA[ Time: 2025-10-13T16:55:00
       Category: Interest Rate
       Impact: 2
       Actual: N/A
       Forecast: N/A
       Previous: N/A ]]></description>
-        <pubDate>Fri, 10 Oct 2025 13:45:00 GMT</pubDate>
-        <guid>393610</guid>
+        <pubDate>Mon, 13 Oct 2025 16:55:00 GMT</pubDate>
+        <guid>393757</guid>
       </item>
     
 
       <item>
-        <title><![CDATA[ Michigan Current Conditions Prel ]]></title>
-        <description><![CDATA[ Time: 2025-10-10T14:00:00
-      Category: Michigan Current Economic Conditions
+        <title><![CDATA[ NFIB Business Optimism Index ]]></title>
+        <description><![CDATA[ Time: 2025-10-14T10:00:00
+      Category: Nfib Business Optimism Index
       Impact: 1
-      Actual: 61.0
-      Forecast: 60
-      Previous: 60.4 ]]></description>
-        <pubDate>Fri, 10 Oct 2025 14:00:00 GMT</pubDate>
-        <guid>371036</guid>
+      Actual: 98.8
+      Forecast: 100.5
+      Previous: 100.8 ]]></description>
+        <pubDate>Tue, 14 Oct 2025 10:00:00 GMT</pubDate>
+        <guid>385273</guid>
       </item>
     
 
       <item>
-        <title><![CDATA[ Michigan Consumer Expectations Prel ]]></title>
-        <description><![CDATA[ Time: 2025-10-10T14:00:00
-      Category: Michigan Consumer Expectations
-      Impact: 1
-      Actual: 51.2
-      Forecast: 51.7
-      Previous: 51.7 ]]></description>
-        <pubDate>Fri, 10 Oct 2025 14:00:00 GMT</pubDate>
-        <guid>371037</guid>
+        <title><![CDATA[ Fed Bowman Speech ]]></title>
+        <description><![CDATA[ Time: 2025-10-14T12:45:00
+      Category: Interest Rate
+      Impact: 2
+      Actual: N/A
+      Forecast: N/A
+      Previous: N/A ]]></description>
+        <pubDate>Tue, 14 Oct 2025 12:45:00 GMT</pubDate>
+        <guid>393725</guid>
       </item>
     
   </channel>
