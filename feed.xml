@@ -4,21 +4,8 @@
     <title>US Economic Calendar</title>
     <description>Real-time US economic events (Low, Medium, High impact)</description>
     <link>https://github.com</link>
-    <lastBuildDate>Mon, 13 Apr 2026 22:31:19 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 14 Apr 2026 06:07:33 GMT</lastBuildDate>
     
-      <item>
-        <title><![CDATA[ Fed Paulson Speech ]]></title>
-        <description><![CDATA[ Time: 2025-10-13T16:55:00
-      Category: Interest Rate
-      Impact: 2
-      Actual: N/A
-      Forecast: N/A
-      Previous: N/A ]]></description>
-        <pubDate>Mon, 13 Oct 2025 16:55:00 GMT</pubDate>
-        <guid>393757</guid>
-      </item>
-    
-
       <item>
         <title><![CDATA[ NFIB Business Optimism Index ]]></title>
         <description><![CDATA[ Time: 2025-10-14T10:00:00
@@ -42,6 +29,19 @@
       Previous: N/A ]]></description>
         <pubDate>Tue, 14 Oct 2025 12:45:00 GMT</pubDate>
         <guid>393725</guid>
+      </item>
+    
+
+      <item>
+        <title><![CDATA[ Redbook YoY ]]></title>
+        <description><![CDATA[ Time: 2025-10-14T12:55:00
+      Category: Redbook Index
+      Impact: 1
+      Actual: 5.9%
+      Forecast: N/A
+      Previous: 5.8% ]]></description>
+        <pubDate>Tue, 14 Oct 2025 12:55:00 GMT</pubDate>
+        <guid>371006</guid>
       </item>
     
   </channel>
