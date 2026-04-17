@@ -4,44 +4,44 @@
     <title>US Economic Calendar</title>
     <description>Real-time US economic events (Low, Medium, High impact)</description>
     <link>https://github.com</link>
-    <lastBuildDate>Thu, 16 Apr 2026 22:03:49 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Apr 2026 00:06:09 GMT</lastBuildDate>
     
       <item>
-        <title><![CDATA[ Fed Barkin Speech ]]></title>
-        <description><![CDATA[ Time: 2025-10-16T12:00:00
+        <title><![CDATA[ Fed Musalem Speech ]]></title>
+        <description><![CDATA[ Time: 2025-10-17T16:15:00
       Category: Interest Rate
       Impact: 2
       Actual: N/A
       Forecast: N/A
       Previous: N/A ]]></description>
-        <pubDate>Thu, 16 Oct 2025 12:00:00 GMT</pubDate>
-        <guid>393760</guid>
+        <pubDate>Fri, 17 Oct 2025 16:15:00 GMT</pubDate>
+        <guid>393763</guid>
       </item>
     
 
       <item>
-        <title><![CDATA[ Philly Fed Business Conditions ]]></title>
-        <description><![CDATA[ Time: 2025-10-16T12:30:00
-      Category: Philly Fed Business Conditions
+        <title><![CDATA[ Baker Hughes Total Rigs Count ]]></title>
+        <description><![CDATA[ Time: 2025-10-17T17:00:00
+      Category: Total Rigs
       Impact: 1
-      Actual: 36.2
+      Actual: 548
       Forecast: N/A
-      Previous: 31.5 ]]></description>
-        <pubDate>Thu, 16 Oct 2025 12:30:00 GMT</pubDate>
-        <guid>385761</guid>
+      Previous: 547 ]]></description>
+        <pubDate>Fri, 17 Oct 2025 17:00:00 GMT</pubDate>
+        <guid>371041</guid>
       </item>
     
 
       <item>
-        <title><![CDATA[ Philly Fed Employment ]]></title>
-        <description><![CDATA[ Time: 2025-10-16T12:30:00
-      Category: Philly Fed Employment
+        <title><![CDATA[ Baker Hughes Oil Rig Count ]]></title>
+        <description><![CDATA[ Time: 2025-10-17T17:00:00
+      Category: Crude Oil Rigs
       Impact: 1
-      Actual: 4.6
-      Forecast: N/A
-      Previous: 5.6 ]]></description>
-        <pubDate>Thu, 16 Oct 2025 12:30:00 GMT</pubDate>
-        <guid>385763</guid>
+      Actual: 418
+      Forecast: 417
+      Previous: 418 ]]></description>
+        <pubDate>Fri, 17 Oct 2025 17:00:00 GMT</pubDate>
+        <guid>371042</guid>
       </item>
     
   </channel>
