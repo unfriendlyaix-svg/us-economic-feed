@@ -4,44 +4,44 @@
     <title>US Economic Calendar</title>
     <description>Real-time US economic events (Low, Medium, High impact)</description>
     <link>https://github.com</link>
-    <lastBuildDate>Fri, 17 Apr 2026 22:08:12 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 00:03:52 GMT</lastBuildDate>
     
       <item>
-        <title><![CDATA[ Fed Musalem Speech ]]></title>
-        <description><![CDATA[ Time: 2025-10-17T16:15:00
-      Category: Interest Rate
-      Impact: 2
-      Actual: N/A
+        <title><![CDATA[ 3-Month Bill Auction ]]></title>
+        <description><![CDATA[ Time: 2025-10-20T15:30:00
+      Category: 3 Month Bill Yield
+      Impact: 1
+      Actual: 3.810%
       Forecast: N/A
-      Previous: N/A ]]></description>
-        <pubDate>Fri, 17 Oct 2025 16:15:00 GMT</pubDate>
-        <guid>393763</guid>
+      Previous: 3.845% ]]></description>
+        <pubDate>Mon, 20 Oct 2025 15:30:00 GMT</pubDate>
+        <guid>371047</guid>
       </item>
     
 
       <item>
-        <title><![CDATA[ Baker Hughes Total Rigs Count ]]></title>
-        <description><![CDATA[ Time: 2025-10-17T17:00:00
-      Category: Total Rigs
+        <title><![CDATA[ 6-Month Bill Auction ]]></title>
+        <description><![CDATA[ Time: 2025-10-20T15:30:00
+      Category: 6 Month Bill Yield
       Impact: 1
-      Actual: 548
+      Actual: 3.660%
       Forecast: N/A
-      Previous: 547 ]]></description>
-        <pubDate>Fri, 17 Oct 2025 17:00:00 GMT</pubDate>
-        <guid>371041</guid>
+      Previous: 3.685% ]]></description>
+        <pubDate>Mon, 20 Oct 2025 15:30:00 GMT</pubDate>
+        <guid>371048</guid>
       </item>
     
 
       <item>
-        <title><![CDATA[ Baker Hughes Oil Rig Count ]]></title>
-        <description><![CDATA[ Time: 2025-10-17T17:00:00
-      Category: Crude Oil Rigs
+        <title><![CDATA[ Redbook YoY ]]></title>
+        <description><![CDATA[ Time: 2025-10-21T12:55:00
+      Category: Redbook Index
       Impact: 1
-      Actual: 418
-      Forecast: 417
-      Previous: 418 ]]></description>
-        <pubDate>Fri, 17 Oct 2025 17:00:00 GMT</pubDate>
-        <guid>371042</guid>
+      Actual: 5%
+      Forecast: N/A
+      Previous: 5.9% ]]></description>
+        <pubDate>Tue, 21 Oct 2025 12:55:00 GMT</pubDate>
+        <guid>371049</guid>
       </item>
     
   </channel>
