@@ -4,34 +4,8 @@
     <title>US Economic Calendar</title>
     <description>Real-time US economic events (Low, Medium, High impact)</description>
     <link>https://github.com</link>
-    <lastBuildDate>Mon, 20 Apr 2026 22:05:57 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2026 00:08:37 GMT</lastBuildDate>
     
-      <item>
-        <title><![CDATA[ 3-Month Bill Auction ]]></title>
-        <description><![CDATA[ Time: 2025-10-20T15:30:00
-      Category: 3 Month Bill Yield
-      Impact: 1
-      Actual: 3.810%
-      Forecast: N/A
-      Previous: 3.845% ]]></description>
-        <pubDate>Mon, 20 Oct 2025 15:30:00 GMT</pubDate>
-        <guid>371047</guid>
-      </item>
-    
-
-      <item>
-        <title><![CDATA[ 6-Month Bill Auction ]]></title>
-        <description><![CDATA[ Time: 2025-10-20T15:30:00
-      Category: 6 Month Bill Yield
-      Impact: 1
-      Actual: 3.660%
-      Forecast: N/A
-      Previous: 3.685% ]]></description>
-        <pubDate>Mon, 20 Oct 2025 15:30:00 GMT</pubDate>
-        <guid>371048</guid>
-      </item>
-    
-
       <item>
         <title><![CDATA[ Redbook YoY ]]></title>
         <description><![CDATA[ Time: 2025-10-21T12:55:00
@@ -42,6 +16,32 @@
       Previous: 5.9% ]]></description>
         <pubDate>Tue, 21 Oct 2025 12:55:00 GMT</pubDate>
         <guid>371049</guid>
+      </item>
+    
+
+      <item>
+        <title><![CDATA[ Fed Waller Speech ]]></title>
+        <description><![CDATA[ Time: 2025-10-21T13:00:00
+      Category: Interest Rate
+      Impact: 2
+      Actual: N/A
+      Forecast: N/A
+      Previous: N/A ]]></description>
+        <pubDate>Tue, 21 Oct 2025 13:00:00 GMT</pubDate>
+        <guid>393795</guid>
+      </item>
+    
+
+      <item>
+        <title><![CDATA[ NY Fed Treasury Purchases 1 to 2.5 yrs ]]></title>
+        <description><![CDATA[ Time: 2025-10-21T14:30:00
+      Category: Calendar
+      Impact: 1
+      Actual: N/A
+      Forecast: $75 million
+      Previous: N/A ]]></description>
+        <pubDate>Tue, 21 Oct 2025 14:30:00 GMT</pubDate>
+        <guid>393801</guid>
       </item>
     
   </channel>
