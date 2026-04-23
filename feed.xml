@@ -4,44 +4,44 @@
     <title>US Economic Calendar</title>
     <description>Real-time US economic events (Low, Medium, High impact)</description>
     <link>https://github.com</link>
-    <lastBuildDate>Wed, 22 Apr 2026 21:12:18 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 23 Apr 2026 00:02:29 GMT</lastBuildDate>
     
       <item>
-        <title><![CDATA[ MBA Purchase Index ]]></title>
-        <description><![CDATA[ Time: 2025-10-22T11:00:00
-      Category: MBA Purchase Index
-      Impact: 1
-      Actual: 157.3
-      Forecast: N/A
-      Previous: 166.0 ]]></description>
-        <pubDate>Wed, 22 Oct 2025 11:00:00 GMT</pubDate>
-        <guid>371051</guid>
-      </item>
-    
-
-      <item>
-        <title><![CDATA[ MBA 30-Year Mortgage Rate ]]></title>
-        <description><![CDATA[ Time: 2025-10-22T11:00:00
-      Category: Mortgage Rate
+        <title><![CDATA[ Existing Home Sales MoM ]]></title>
+        <description><![CDATA[ Time: 2025-10-23T14:00:00
+      Category: Existing Home Sales MoM
       Impact: 2
-      Actual: 6.37%
+      Actual: 1.5%
       Forecast: N/A
-      Previous: 6.42% ]]></description>
-        <pubDate>Wed, 22 Oct 2025 11:00:00 GMT</pubDate>
-        <guid>371052</guid>
+      Previous: -0.2% ]]></description>
+        <pubDate>Thu, 23 Oct 2025 14:00:00 GMT</pubDate>
+        <guid>385906</guid>
       </item>
     
 
       <item>
-        <title><![CDATA[ MBA Mortgage Market Index ]]></title>
-        <description><![CDATA[ Time: 2025-10-22T11:00:00
-      Category: MBA Mortgage Market Index
+        <title><![CDATA[ Existing Home Sales ]]></title>
+        <description><![CDATA[ Time: 2025-10-23T14:00:00
+      Category: Existing Home Sales
+      Impact: 3
+      Actual: 4.06M
+      Forecast: 4.1M
+      Previous: 4M ]]></description>
+        <pubDate>Thu, 23 Oct 2025 14:00:00 GMT</pubDate>
+        <guid>385907</guid>
+      </item>
+    
+
+      <item>
+        <title><![CDATA[ EIA Natural Gas Stocks Change ]]></title>
+        <description><![CDATA[ Time: 2025-10-23T14:30:00
+      Category: Natural Gas Stocks Change
       Impact: 1
-      Actual: 316.2
-      Forecast: N/A
-      Previous: 317.2 ]]></description>
-        <pubDate>Wed, 22 Oct 2025 11:00:00 GMT</pubDate>
-        <guid>371053</guid>
+      Actual: 87Bcf
+      Forecast: 83Bcf
+      Previous: 80Bcf ]]></description>
+        <pubDate>Thu, 23 Oct 2025 14:30:00 GMT</pubDate>
+        <guid>371071</guid>
       </item>
     
   </channel>
